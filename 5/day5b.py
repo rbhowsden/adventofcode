@@ -22,7 +22,7 @@ instructions = [x
 def yeet(x):
     x = re.split(r' from | to ', x)
     return [int(x) for x in x]
-S
+
 moves = list(map(yeet, instructions))
 
 for move in moves:
